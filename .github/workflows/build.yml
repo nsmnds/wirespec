@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: wirespec-cli-linux
-          path: compiler/cli/build/bin/linuxX64/releaseExecutable/cli.kexe
+          path: src/compiler/cli/build/bin/linuxX64/releaseExecutable/cli.kexe
       - name: Archive vscode extension
         uses: actions/upload-artifact@v3
         with:
