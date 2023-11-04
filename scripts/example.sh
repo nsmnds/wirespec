@@ -10,3 +10,4 @@ dir="$(dirname -- "$0")"
   (cd "$dir"/../examples/spring-boot-maven-plugin && ./mvnw clean package) &&
   (cd "$dir"/../examples/spring-boot-custom-maven-plugin && ./mvnw clean package) &&
   (cd "$dir"/../examples/spring-boot-openapi-maven-plugin && ./mvnw clean package)
+  (cd "$dir"/../examples/spring-boot-integration && ./mvnw clean package)
