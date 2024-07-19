@@ -32,7 +32,7 @@ data class Field(val identifier: Identifier, val reference: Reference, val isNul
         }
 
         data class Unit(
-            override val isIterable: Boolean,
+            override val isIterable: Boolean = false,
             override val isDictionary: Boolean = false,
         ) : Reference {
             override val value = "Unit"
