@@ -33,6 +33,7 @@ include(
     "src:plugin:npm",
     "src:plugin:gradle",
     "src:converter:openapi",
+    "src:converter:wsdl",
     "src:integration:jackson",
     "src:integration:wirespec",
     "src:tools:generator",
